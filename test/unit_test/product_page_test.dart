@@ -10,11 +10,11 @@ import 'package:my_flutter_app/repositories/product_repositories.dart';
 void main() {
   group('Product Repositories Tests', () {
     // // สร้าง instance ของ MockProductRepository
-    // xxxxx____3.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    // late xxxxx____3.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
     // setUp(() {
     //   // ตั้งค่าเริ่มต้นก่อนการทดสอบแต่ละครั้ง
-    //   xxxxx____4.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+    //   xxxxx____4.จงเติมคำตอบที่ถูกต้อง_____xxxxx = MockProductRepository();
     // });
 
     // test('fetchProduct returns a Product', () async {
@@ -24,7 +24,7 @@ void main() {
       // );
 
       // // เรียกใช้งาน fetchProduct
-      // final product = xxxxx____5.จงเติมคำตอบที่ถูกต้อง_____xxxxx;
+      // final product = await xxxxx____5.จงเติมคำตอบที่ถูกต้อง_____xxxxx;
 
       // // ตรวจสอบผลลัพธ์ : product ต้องเป็น Type 'Product'
       // expect(product, isA<Product>());
@@ -41,9 +41,10 @@ void main() {
 
     // test('fetchProduct throws an exception when API call fails', () async {
       // // ตั้งค่า mock ให้ throw Exception('Failed to fetch product')เมื่อเรียก mockProductRepository.fetchProduct()
-      // xxxxx____9.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // when(xxxxx____9.จงเติมคำตอบที่ถูกต้อง_____xxxxx)
+      //   .thenAnswer((_) async => throw Exception('Failed to fetch product'),);
 
-      // ตรวจสอบว่าการเรียก fetchProduct จะ throw ข้อผิดพลาด
+      // ตรวจสอบว่าการเรียก fetchProduct จะ throw ข้อผิดพลาด (throwsException)
       // xxxxx____10.จงเติมคำตอบที่ถูกต้อง_____xxxxx
     // });
   });

@@ -24,7 +24,7 @@ void main() {
       // // ดำเนินการทดสอบ
       // final customerList = await mockCustomerService.fetchCustomerList();
 
-      // // ตรวจสอบผลลัพธ์ว่า fetchCustomerList มีการ Response กลับมาเป็น List ที่มีชื่อลูกค้า
+      // // ตรวจสอบผลลัพธ์ว่า fetchCustomerList มีการ Response กลับมาเป็น List ที่มีชื่อลูกค้า (['Alice', 'Bob', 'Charlie'])
       // expect(xxxxx____3.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
     // });
 
@@ -35,17 +35,18 @@ void main() {
       //   (_) async => throw Exception('Failed to fetch data'),
       // );
 
-      // // ตรวจสอบผลลัพธ์ว่า fetchCustomerList มีการ Throw Error 'Exception' กลับมาหรือไม่ , โดยใช้ throwsA ตรวจสอบ
+      // // ตรวจสอบผลลัพธ์ว่า mockCustomerService.fetchCustomerList มีการ Throw Error 'Exception' กลับมาหรือไม่ , โดยใช้ throwsA(isA<Exception>()) ตรวจสอบ
       // expect(xxxxx____4.จงเติมคำตอบที่ถูกต้อง_____xxxxx);
     // });
 
     // // Test case ที่ 3: ตรวจสอบว่าฟังก์ชัน fetchCustomerList ถูกเรียกใช้งานหรือไม่
     // test('fetchCustomerList is called', () async {
       // // Setup mock method ให้ส่งกลับข้อมูลที่ต้องการ
-      // xxxxx____5.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // when(xxxxx____5.จงเติมคำตอบที่ถูกต้อง_____xxxxx)
+        // .thenAnswer((_) async => ['Alice', 'Bob', 'Charlie']);
 
       // // ดำเนินการเรียกใช้งานฟังก์ชัน
-      // xxxxx____6.จงเติมคำตอบที่ถูกต้อง_____xxxxx
+      // await xxxxx____6.จงเติมคำตอบที่ถูกต้อง_____xxxxx
 
       // // ตรวจสอบว่าฟังก์ชันถูกเรียกใช้งานอย่างน้อย 1 ครั้ง
       // verify(xxxxx____7.จงเติมคำตอบที่ถูกต้อง_____xxxxx).called(1);
